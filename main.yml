@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+  become: no
+  gather_facts: no
+
+  vars_files:
+    - vars/vars.yml
+    
+  tasks:
+    - name: Save local credential on Password Safe
+      include_tasks: ./tasks/main.yml
+
