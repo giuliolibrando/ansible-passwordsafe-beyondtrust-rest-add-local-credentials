@@ -1,0 +1,3 @@
+---
+- name: Send REST API POST requests
+  script: apipost.py {{ ps_host_name }} {{ ps_host_ip}} {{ ps_host_os}} {{ ps_key }} {{ ps_username }} {{ ps_url }}
