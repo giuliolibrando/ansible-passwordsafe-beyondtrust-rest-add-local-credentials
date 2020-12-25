@@ -1,0 +1,6 @@
+ps_host_name: "{{ host_name_name }}"
+ps_host_ip: "{{ host_ip }}"
+ps_host_os: "{{ os_type }}"
+ps_key: "{{ ps_key }}"
+ps_username: "{{ ps_username }}"
+ps_url: "{{ ps_url }}"
