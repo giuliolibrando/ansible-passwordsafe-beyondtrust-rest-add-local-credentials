@@ -1,0 +1,1 @@
+# ansible-passwordsafe-beyondtrust-rest-add-local-credentials
